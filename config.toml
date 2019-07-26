@@ -1,0 +1,88 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Richard Palacios G."
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "Richard Palacios G."
+
+[taxonomies]
+  tag      = "tags"
+  category = ""
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Sitio web personal y blog por Richard Palacios García"
+  keywords = "homepage, blog, dev, development, programming, web development, fullstack"
+  images = [""]
+
+  homeSubtitle = "Web Developer"
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "Richard Palacios García"
+    subtitle = "Web Developer"
+    keywords = "Web Developer"
+    copyright = ""
+    readOtherPosts = "Lee otras publicaciones"
+
+[params.logo]
+    logoText = "$~/HOME"
+    logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+# Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/rpalaciosg_"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:apalaciosg91@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/rpalaciosg"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/richardpalaciosgarcia/"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/post"
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about-me on Richard Palacios García</title>
+    <link>http://example.org/tags/about-me/</link>
+    <description>Recent content in about-me on Richard Palacios García</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/about-me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>¡Hola!, soy Richard Palacios García, un Desarrollador Web de Cuenca, Ecuador. Durante el día trabajo para Mutualista Azuay como Desarrollador de Software en tecnologías AS400 IBMi; usando lenguajes como RPGIV, RPG/ILE, Java EE, C# y Bases de Datos.
+En mi tiempo libre, me gusta colaborar en proyectos de software libre los que me parecen interesantes, y en donde estoy aprendiendo mucho; uno de ellos es el de la comunidad de Python Ecuador.</description>
+    </item>
+    
+  </channel>
+</rss>
