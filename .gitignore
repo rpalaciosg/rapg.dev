@@ -1,0 +1,31 @@
+
+# Creado por https://www.gitignore.io/api/linux,visualstudiocode
+# Editar en https://www.gitignore.io/?templates=linux,visualstudiocode
+
+### Linux ###
+* ~
+
+# archivos temporales que se pueden crear si un proceso aún tiene un identificador abierto de un archivo eliminado
+.fuse_hidden *
+
+# KDE preferencias de directorio
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+# .nfs archivos se crean cuando se elimina un archivo abierto, pero todavía se está accediendo
+.nfs *
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+
+### VisualStudioCode Patch ###
+# Ignorar todo el historial local de archivos
+.historia
+
+# Fin de https://www.gitignore.io/api/linux,visualstudiocode
