@@ -35,7 +35,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
   homeSubtitle = "Web Developer"
 
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "post"
+  contentTypeName = "posts"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
@@ -80,9 +80,9 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
     name       = "About"
     url        = "/about"
   [[menu.main]]
-    identifier = "post"
+    identifier = "posts"
     name       = "Blog"
-    url        = "/post"
+    url        = "/posts"
   [[menu.main]]
     identifier = "projects"
     name = "Projects"

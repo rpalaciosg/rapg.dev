@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Richard Palacios García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2019 01:39:11 -0500</lastBuildDate>
     
 	<atom:link href="https://www.richardpalaciosg.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://www.richardpalaciosg.dev/tags/hugo/</link>
+      <pubDate>Sat, 27 Jul 2019 01:39:11 -0500</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://www.richardpalaciosg.dev/tags/markdown/</link>
+      <pubDate>Sat, 27 Jul 2019 01:39:11 -0500</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website</title>
+      <link>https://www.richardpalaciosg.dev/tags/website/</link>
+      <pubDate>Sat, 27 Jul 2019 01:39:11 -0500</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/tags/website/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>about-me</title>
@@ -35,15 +62,6 @@
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.richardpalaciosg.dev/tags/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>website</title>
-      <link>https://www.richardpalaciosg.dev/tags/website/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.richardpalaciosg.dev/tags/website/</guid>
       <description></description>
     </item>
     

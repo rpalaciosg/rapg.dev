@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on Richard Palacios García</title>
+    <link>https://www.richardpalaciosg.dev/tags/markdown/</link>
+    <description>Recent content in markdown on Richard Palacios García</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jul 2019 01:39:11 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.richardpalaciosg.dev/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post De Prueba</title>
+      <link>https://www.richardpalaciosg.dev/posts/2019/07/post-de-prueba/</link>
+      <pubDate>Sat, 27 Jul 2019 01:39:11 -0500</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/posts/2019/07/post-de-prueba/</guid>
+      <description>Este es mi segundo post para prueba.</description>
+    </item>
+    
+    <item>
+      <title>Mi Primer Post</title>
+      <link>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</link>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</guid>
+      <description>Hola mundo!, Este es mi primer post creado con el framework Hugo.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,17 +1,17 @@
 ---
-title: "Mi Primer Post"
-date: 2019-07-24
-linktitle: Mi primer Post
+title: "Post De Prueba"
+date: 2019-07-27T01:39:11-05:00
+draft: true
+linktitle: Post de prueba
 author:
   name: "Richard Palacios G."
 type:
 - post
 weight: 10
-draft: true
 series:
 - Hugo 101
 tags: ["markdown", "Hugo", "Website"]
 categories: ["hugo"]
 ---
 
-Hola mundo!, Este es mi primer post creado con el framework Hugo.
+Este es mi segundo post para prueba.

@@ -6,10 +6,28 @@
     <description>Recent content in website on Richard Palacios García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2019 01:39:11 -0500</lastBuildDate>
     
 	<atom:link href="https://www.richardpalaciosg.dev/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Post De Prueba</title>
+      <link>https://www.richardpalaciosg.dev/posts/2019/07/post-de-prueba/</link>
+      <pubDate>Sat, 27 Jul 2019 01:39:11 -0500</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/posts/2019/07/post-de-prueba/</guid>
+      <description>Este es mi segundo post para prueba.</description>
+    </item>
+    
+    <item>
+      <title>Mi Primer Post</title>
+      <link>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</link>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</guid>
+      <description>Hola mundo!, Este es mi primer post creado con el framework Hugo.</description>
+    </item>
     
     <item>
       <title>About</title>
