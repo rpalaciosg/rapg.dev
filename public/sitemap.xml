@@ -3,53 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rpalaciosg.netlify.com/about/</loc>
+    <loc>https://www.richardpalaciosg.dev/about/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rpalaciosg.netlify.com/projects/</loc>
+    <loc>https://www.richardpalaciosg.dev/projects/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rpalaciosg.netlify.com/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rpalaciosg.netlify.com/tags/</loc>
+    <loc>https://www.richardpalaciosg.dev/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rpalaciosg.netlify.com/tags/about-me/</loc>
+    <loc>https://www.richardpalaciosg.dev/tags/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rpalaciosg.netlify.com/tags/portfolio/</loc>
+    <loc>https://www.richardpalaciosg.dev/tags/about-me/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rpalaciosg.netlify.com/tags/projects/</loc>
+    <loc>https://www.richardpalaciosg.dev/tags/portfolio/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rpalaciosg.netlify.com/tags/website/</loc>
+    <loc>https://www.richardpalaciosg.dev/tags/projects/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rpalaciosg.netlify.com/index.html</loc>
+    <loc>https://www.richardpalaciosg.dev/tags/website/</loc>
+    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.richardpalaciosg.dev/index.html</loc>
     <priority>0</priority>
   </url>
   
