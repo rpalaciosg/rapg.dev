@@ -80,7 +80,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
     name       = "About"
     url        = "/about"
   [[menu.main]]
-    identifier = "blog"
+    identifier = "post"
     name       = "Blog"
     url        = "/post"
   [[menu.main]]
