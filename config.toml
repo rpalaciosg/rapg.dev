@@ -35,7 +35,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
   homeSubtitle = "Web Developer"
 
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  contentTypeName = "post"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
@@ -57,12 +57,12 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 
 # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/rpalaciosg_"
-
-  [[params.social]]
     name = "email"
     url  = "mailto:apalaciosg91@gmail.com"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/rpalaciosg_"
 
   [[params.social]]
     name = "github"
@@ -71,6 +71,7 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/richardpalaciosgarcia/"
+
 
 # And you can even create generic menu
 [menu]

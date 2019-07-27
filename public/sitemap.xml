@@ -3,53 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://rpalaciosg.netlify.com/about/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/projects/</loc>
+    <loc>https://rpalaciosg.netlify.com/projects/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://rpalaciosg.netlify.com/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/about-me/</loc>
+    <loc>https://rpalaciosg.netlify.com/tags/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/portfolio/</loc>
+    <loc>https://rpalaciosg.netlify.com/tags/about-me/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/projects/</loc>
+    <loc>https://rpalaciosg.netlify.com/tags/portfolio/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/website/</loc>
+    <loc>https://rpalaciosg.netlify.com/tags/projects/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/index.html</loc>
+    <loc>https://rpalaciosg.netlify.com/tags/website/</loc>
+    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rpalaciosg.netlify.com/index.html</loc>
     <priority>0</priority>
   </url>
   

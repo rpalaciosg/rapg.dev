@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>portfolio on Richard Palacios García</title>
-    <link>http://example.org/tags/portfolio/</link>
+    <link>https://rpalaciosg.netlify.com/tags/portfolio/</link>
     <description>Recent content in portfolio on Richard Palacios García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rpalaciosg.netlify.com/tags/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects</title>
-      <link>http://example.org/projects/</link>
+      <link>https://rpalaciosg.netlify.com/projects/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/</guid>
+      <guid>https://rpalaciosg.netlify.com/projects/</guid>
       <description>Este es mi portfolio.</description>
     </item>
     
