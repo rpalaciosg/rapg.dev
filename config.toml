@@ -7,9 +7,11 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message 
 
 # googleAnalytics = ""
-# disqusShortname = ""
+disqusShortname = "rpalaciosg"
+enableEmoji     = true
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
@@ -34,6 +36,9 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
 
   homeSubtitle = "Web Developer"
 
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+  
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # Default theme "light" or "dark"
