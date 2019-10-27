@@ -21,7 +21,8 @@ enableEmoji     = true
 
 [taxonomies]
   tag      = "tags"
-  category = ""
+  category = "categories"
+  mood = "moods"
 
 [params]
   dateform        = "Jan 2, 2006"
