@@ -5,28 +5,62 @@
         <description>Recent content in Posts on Richard Palacios García</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 27 Jul 2019 01:39:11 -0500</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://www.richardpalaciosg.dev/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Post De Prueba</title>
-            <link>https://www.richardpalaciosg.dev/posts/2019/07/post-de-prueba/</link>
-            <pubDate>Sat, 27 Jul 2019 01:39:11 -0500</pubDate>
-            
-            <guid>https://www.richardpalaciosg.dev/posts/2019/07/post-de-prueba/</guid>
-            <description>Este es mi segundo post para prueba.</description>
-            <content type="html"><![CDATA[<p>Este es mi segundo post para prueba.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Mi Primer Post</title>
-            <link>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</link>
+            <title>Construyendo mi sitio web</title>
+            <link>https://www.richardpalaciosg.dev/posts/2019/07/construyendo-mi-sitio-web/</link>
             <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
             
-            <guid>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</guid>
-            <description>Hola mundo!, Este es mi primer post creado con el framework Hugo.</description>
-            <content type="html"><![CDATA[<p>Hola mundo!, Este es mi primer post creado con el framework Hugo.</p>
+            <guid>https://www.richardpalaciosg.dev/posts/2019/07/construyendo-mi-sitio-web/</guid>
+            <description>Hola mundo!.Este es el primer post que creo para este sitio.
+Desde hace algún tiempo empece a dedicarme más al desarrollo web, y a intentar mejorar mi marca personal. Como parte de ello decidí crear mi sitio web personal, para poder contar un poco sobre mí, tener un blog, y mostrar proyectos tipo portfolio en los que he trabajado.
+A pesar de mis esfuerzos por crear un sitio desde cero, no estaba satisfecho con la forma de publicar, hacer cambios y mantener el sitio además de que mi frontend o sentido del diseño era muy básico.</description>
+            <content type="html"><![CDATA[<p>Hola mundo!.Este es el primer post que creo para este sitio.</p>
+
+<p>Desde hace algún tiempo empece a dedicarme más al desarrollo web, y a intentar mejorar mi marca personal. Como parte de ello decidí crear mi sitio web personal, para poder contar un poco sobre mí, tener un blog, y mostrar proyectos tipo portfolio en los que he trabajado.</p>
+
+<p>A pesar de mis esfuerzos por crear un sitio desde cero, no estaba satisfecho con la forma de publicar, hacer cambios y mantener el sitio <em>además de que mi frontend o sentido del diseño era muy básico</em>.</p>
+
+<p>Investigando un poco descubrí ciertos frameworks, herramientas o generadores de sitios estáticos que facilitan estas tareas. Encontré y revisé varias de esas herramientas: como <a href="https://jekyllrb.com/">Jekyll</a>, <a href="https://www.getlektor.com/">Lektor</a>, <a href="https://gohugo.io/">Hugo</a>, <a href="https://getnikola.com/">nikola</a>, <a href="https://ghost.org/">ghost</a>, no es mi intensión decir que herramienta es mejor o peor, pero todas cumplen su cometido y como todo cada una tiene su ventaja o desventaja.</p>
+
+<p>Durante ese tiempo empezó la moda de internet <a href="https://pages.github.com/">GitHubPages</a>, como es normal, empecé a investigar,  descubrí que promocionaban bloguear usando Jekyll y terminé con mi propio sitio generedo con Jekyll y alojado en github pages, de hecho aún puedes verlo en <a href="https://rpalaciosg.github.io/">rpalacios.github.io</a>. Esto fue emocionante para mí por que es gratis, no sentí la necesidad de adquirir un domínio, me ayudo mucho para aprender sobre el flujo de trabajo con git, GitHub, incluso me ayudó a cumplir los Pull Request necesarios para el Hactoberfest de 2018.</p>
+
+<p>A pesar de tener mi sitio, de que modifiqué un poco el tema a mi gusto, no le dí mas tiempo y trabajo que ese.</p>
+
+<p>Después de un tiempo empecé a cursar un Bootcamp de desarrollo Web en keepcoding, en el que a pesar de mejorar mis skills en frontend, sentí que en lugar de trabajar en el diseño del tema de jekyll que uso en mi sitio, debía enfocarme más en los proyectos en los que estoy trabajando y que puedo mostrar en mi portafolio. Además de que el fork del tema que usé para ese sitio me limitaba a hacer pruebas directamente en el sitio publicado, lo que era un problema ya que al no tener un ambiente de desarrollo, todas las pruebas y errores era en vivo.</p>
+
+<p>Fue entonces cuando decidí, construir este sitio web, pero con la condición de que debía ser un tema sencillo, basado en un lenguaje de programación que conozca por ejemplo Python o  Javascript, que sea responsive y que se acerque un poco a simular una terminal.</p>
+
+<p>Teniendo esas restricciones en mente, en la búsqueda dí con este tema <a href="https://themes.gohugo.io/hugo-theme-hello-friend-ng/">hello-friend-ng</a> del generador de sitios estáticos Hugo. A pesar que al principio quise pasar de usarlo ya que incumplía una de las condiciones anteriores porque está basado <a href="https://golang.org/">Go</a> y no en un lenguaje que conozca, decidí probarlo.</p>
+
+<p><img src="https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg" alt="Hugo logo" /></p>
+
+<p>En cuanto a mi elección quiero decir que hasta ahora estoy encantado.</p>
+
+<ul>
+<li>Es el tema que más me gusto, se parece a una terminal, casi no tengo que hacerle modificaciones, es responsive e incluso tiene para modo claro y oscuro.</li>
+<li>El ambiente de <code>Go</code> en <code>Hugo</code> se me ha hecho más fácil que el uso de Ruby en Jekyll.</li>
+
+<li><p>Y sobre todo la documentación de <code>Hugo</code> a mi parecer es muy completa, y tuve la suficiente guía para abordar y resolver ciertos problemas que encontré en el camino.</p></li>
+
+<li><p>Descubrí que a parte de <code>GitHubPages</code> podia desplegar mi sitio gratuitamente en <code>NetLify</code> y con integración continua, entonces decidí implementarlo de la siguiente manera:</p>
+
+<ul>
+<li>Los fuentes están alojados en mi <code>github</code> en la rama <code>master</code> de manera pública.</li>
+<li>El contenido compilado o generado se despliega en Netlify.</li>
+<li>Estoy usando un nombre de dominio personalizado.</li>
+</ul></li>
+</ul>
+
+<p>Entonces el proceso para ponerlo en vivo fue:</p>
+
+<p>Hacer un fork del repositorio del tema a usar <a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">hugo-theme-hello-friend-ng</a> esto porque los temas de hugo en los sitios que se despliegan en <code>netlify</code> deben estar como un submodulo de git, y además de en el futuro poder hacer modificaciones propias.</p>
+
+<p><img src="/public/posts/2019/07/construyendo-mi-sitio-web/fork-tema.png" alt="Fork del tema en github" position="center" style="border-radius: 8px;"/></p>
+
+<p><img src="../../resources/_gen/images/fork-tema.png" alt="image alt text" /></p>
 ]]></content>
         </item>
         
