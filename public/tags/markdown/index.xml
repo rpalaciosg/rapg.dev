@@ -6,27 +6,20 @@
     <description>Recent content in markdown on Richard Palacios García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jul 2019 01:39:11 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.richardpalaciosg.dev/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Post De Prueba</title>
-      <link>https://www.richardpalaciosg.dev/posts/2019/07/post-de-prueba/</link>
-      <pubDate>Sat, 27 Jul 2019 01:39:11 -0500</pubDate>
-      
-      <guid>https://www.richardpalaciosg.dev/posts/2019/07/post-de-prueba/</guid>
-      <description>Este es mi segundo post para prueba.</description>
-    </item>
-    
-    <item>
-      <title>Mi Primer Post</title>
-      <link>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</link>
+      <title>Construyendo mi sitio web</title>
+      <link>https://www.richardpalaciosg.dev/posts/2019/07/construyendo-mi-sitio-web/</link>
       <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</guid>
-      <description>Hola mundo!, Este es mi primer post creado con el framework Hugo.</description>
+      <guid>https://www.richardpalaciosg.dev/posts/2019/07/construyendo-mi-sitio-web/</guid>
+      <description>Hola mundo!.Este es el primer post que creo para este sitio.
+Desde hace algún tiempo empece a dedicarme más al desarrollo web, y a intentar mejorar mi marca personal. Como parte de ello decidí crear mi sitio web personal, para poder contar un poco sobre mí, tener un blog, y mostrar proyectos tipo portfolio en los que he trabajado.
+A pesar de mis esfuerzos por crear un sitio desde cero, no estaba satisfecho con la forma de publicar, hacer cambios y mantener el sitio además de que mi frontend o sentido del diseño era muy básico.</description>
     </item>
     
   </channel>
