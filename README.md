@@ -1,6 +1,6 @@
 # Sitio Web Personal
 
-Creación y configuración de mi sitio web personal.
+Creación y configuración de mi sitio web personal. [![Netlify Status](https://api.netlify.com/api/v1/badges/0218e760-29f5-41c4-b23c-7e97858fc4a9/deploy-status)](https://app.netlify.com/sites/rpalaciosg/deploys)
 
 ![Imagen del sitio](resources/site_img.png)
 
