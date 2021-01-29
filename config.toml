@@ -79,19 +79,20 @@ enableEmoji     = true
     url  = "https://www.linkedin.com/in/richardpalaciosgarcia/"
 
 
+
 # And you can even create generic menu
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "./About"
+    name       = "/About"
     url        = "/about"
   [[menu.main]]
     identifier = "posts"
-    name       = "./Blog"
+    name       = "/Blog"
     url        = "/posts"
   [[menu.main]]
     identifier = "projects"
-    name = "./Projects"
+    name = "/Projects"
     url = "/projects"
 
 # Goldmark
