@@ -20,7 +20,7 @@ Actualmente trabajo para Mutualista Azuay como Analista de Desarrollo en tecnolo
 
 ### /Software skills
 <p>
-<kbd>HTML</kbd> ➕ <kbd>CSS(Flexbox/Grid)</kbd> ➕ <kbd>Git(Github/Gitlab)</kbd> ➕ <kbd>Javascript(ES6+)</kbd> ➕ <kbd>Node.js</kbd> ➕ <kbd>Express</kbd> ➕ <kbd>React.js</kbd> ➕ <kbd>Gatsby.js</kbd> ➕ <kbd>Figma</kbd> ➕ <kbd>SASS</kbd> ➕ <kbd>Tailwind CSS</kbd> ➕ <kbd>Bootstrap</kbd> ➕ <kbd>MySQL</kbd> ➕ <kbd>MongoDB</kbd> ➕ <kbd>C#</kbd> ➕ <kbd>RPG/ILE (AS400 IBMi)</kbd> ➕ <kbd>Hugo</kbd>.
+<kbd>HTML</kbd> <kbd>CSS(Flexbox/Grid)</kbd> <kbd>Git(Github/Gitlab)</kbd> <kbd>Javascript(ES6+)</kbd> <kbd>Node.js</kbd> <kbd>Express</kbd> <kbd>React.js</kbd> <kbd>Gatsby.js</kbd> <kbd>Figma</kbd> <kbd>SASS</kbd> <kbd>Tailwind CSS</kbd> <kbd>Bootstrap</kbd> <kbd>MySQL</kbd> <kbd>MongoDB</kbd> <kbd>C#</kbd> <kbd>RPG/ILE (AS400 IBMi)</kbd> <kbd>Hugo</kbd>
 </p>
 </br>
 <span></span>
@@ -75,4 +75,19 @@ Aqui algunas de las comunidades en las que he participado hasta ahora:
 
 ### /Costruyamos algo juntos
 
-Si esta buscando un desarrollador puedes ver mi [`📄CV aqui`](https://drive.google.com/file/d/1RUYtDW6Z8KiGVurfvLwlCpb9xQVrjCeZ/view)👀. Si tienes alguna pregunta, un proyecto Open Source 🔥 en el que podamos colaborar o simplemente saludar🖖 no dudes en [escribirme📧](apalaciosg91@gmail.com).
+Si esta buscando un desarrollador puedes ver mi [`📄CV aquí`](https://drive.google.com/file/d/1RUYtDW6Z8KiGVurfvLwlCpb9xQVrjCeZ/view)👀. Si tienes alguna pregunta, un proyecto Open Source 🔥 en el que podamos colaborar o simplemente saludar🖖 no dudes en [escribirme📧](apalaciosg91@gmail.com).
+<style>
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+   }
+</style>
