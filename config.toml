@@ -47,7 +47,7 @@ enableEmoji     = true
 
 [languages]
   [languages.en]
-    title = "Richard Palacios García"
+    title = "⚡Richard Palacios García"
     subtitle = "Web Developer"
     keywords = "Web Developer"
     copyright = ""
@@ -93,3 +93,7 @@ enableEmoji     = true
     identifier = "projects"
     name = "Projects"
     url = "/projects"
+
+# Goldmark
+[markup.goldmark.renderer]
+      unsafe = true
