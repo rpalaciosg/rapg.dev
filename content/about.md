@@ -72,4 +72,4 @@ En mi tiempo libre me gusta colaborar en proyectos de software libre y comunidad
 
 ### /Costruyamos algo juntos
 
-Si esta buscando un desarrollador, tienes alguna pregunta, un proyecto open source en el que pueda colaborar o simplemente saludar no dude en [escribirme 📝](apalaciosg91@gmail.com).
+Si esta buscando un desarrollador, tienes alguna pregunta, un proyecto open source en el que pueda colaborar o simplemente saludar no dudes en [escribirme 📝](apalaciosg91@gmail.com).
