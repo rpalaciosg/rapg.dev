@@ -17,7 +17,7 @@ enableEmoji     = true
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Richard Palacios G."
+  name = "Richard Palacios G.⚡"
 
 [taxonomies]
   tag      = "tags"
@@ -54,7 +54,7 @@ enableEmoji     = true
     readOtherPosts = "Lee otras publicaciones"
 
 [params.logo]
-    logoText = "$~/HOME"
+    logoText = "rpalaciosg"
     logoHomeLink = "/"
     # or
     #
@@ -83,15 +83,15 @@ enableEmoji     = true
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "/About"
+    name       = "./About"
     url        = "/about"
   [[menu.main]]
     identifier = "posts"
-    name       = "/Blog"
+    name       = "./Blog"
     url        = "/posts"
   [[menu.main]]
     identifier = "projects"
-    name = "/Projects"
+    name = "./Projects"
     url = "/projects"
 
 # Goldmark
