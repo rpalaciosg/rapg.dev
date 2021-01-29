@@ -84,7 +84,7 @@ enableEmoji     = true
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "/About"
+    name       = "/About-me"
     url        = "/about"
   [[menu.main]]
     identifier = "posts"
