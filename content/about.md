@@ -3,7 +3,6 @@ title = "About"
 date = "2021-01-29"
 aliases = ["about-me","contact"]
 draft = false
-tags = ["about-me", "website"]
 [ author ]
   name = "Richard Palacios G."
 +++
