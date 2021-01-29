@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "About me"
 date = "2021-01-29"
 aliases = ["about-me","contact"]
 draft = false
@@ -26,9 +26,12 @@ Actualmente trabajo para Mutualista Azuay como Analista de Desarrollo en tecnolo
 <span></span>
 
 ### /Comunidades
-En mi tiempo libre me gusta colaborar en proyectos de software libre y comunidades, aqui unas en las que he participado:
-   - [Javascript Ecuador](http://javascript.ec/)
-   - [Python Ecuador](https://python.ec/)
+En mi tiempo libre me gusta colaborar en proyectos de software libre y comunidades.
+
+Aqui algunas de las comunidades en las que he participado hasta ahora:
+
+* [Javascript Ecuador](http://javascript.ec/)
+* [Python Ecuador](https://python.ec/)
 
 </br>
 <span></span>
