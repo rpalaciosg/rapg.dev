@@ -18,11 +18,18 @@ Actualmente trabajo para Mutualista Azuay como Analista de Desarrollo en tecnolo
 </br>
 <span></span>
 
-### /Software skills
+
+**Algunas de las tecnologias con las que he estado trabajando últimamente:**
 <p>
 <kbd>HTML</kbd> <kbd>CSS(Flexbox/Grid)</kbd> <kbd>Git(Github/Gitlab)</kbd> <kbd>Javascript(ES6+)</kbd> <kbd>Node.js</kbd> <kbd>Express</kbd> <kbd>React.js</kbd> <kbd>Gatsby.js</kbd> <kbd>Figma</kbd> <kbd>SASS</kbd> <kbd>Tailwind CSS</kbd> <kbd>Bootstrap</kbd> <kbd>MySQL</kbd> <kbd>MongoDB</kbd> <kbd>C#</kbd> <kbd>RPG/ILE (AS400 IBMi)</kbd> <kbd>Hugo</kbd>
 </p>
 </br>
+<span></span>
+
+
+### /Skills
+<kbd>Web Development</kbd> <kbd>Backend Development</kbd> <kbd>Responsive Design</kbd> <kbd>Frontend Development</kbd> <kbd>self-taught person</kbd> <kbd>Empathy</kbd> <kbd>Teamwork</kbd> <kbd>Continuous learning</kbd> <kbd>Continuous improvement</kbd> <kbd>Open-source Software</kbd>
+
 <span></span>
 
 ### /Comunidades
@@ -76,6 +83,7 @@ Aqui algunas de las comunidades en las que he participado hasta ahora:
 ### /Costruyamos algo juntos
 
 Si esta buscando un desarrollador puedes ver mi [`📄CV aquí`](https://drive.google.com/file/d/1RUYtDW6Z8KiGVurfvLwlCpb9xQVrjCeZ/view)👀. Si tienes alguna pregunta, un proyecto Open Source 🔥 en el que podamos colaborar o simplemente saludar🖖 no dudes en [escribirme📧](apalaciosg91@gmail.com).
+
 <style>
 kbd {
     background-color: #eee;
