@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on ⚡Richard Palacios García</title>
+    <link>https://www.richardpalaciosg.dev/categories/terminal/</link>
+    <description>Recent content in Terminal on ⚡Richard Palacios García</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Jan 2021 03:34:10 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.richardpalaciosg.dev/categories/terminal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Commitizen y alias: Git Workflow para productividad en tu terminal</title>
+      <link>https://www.richardpalaciosg.dev/posts/2021/01/commitizen-y-alias-git-workflow-para-productividad-en-tu-terminal/</link>
+      <pubDate>Fri, 29 Jan 2021 03:34:10 -0500</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/posts/2021/01/commitizen-y-alias-git-workflow-para-productividad-en-tu-terminal/</guid>
+      <description> Se que has pasado el tedioso momento de tener que pensar que escribir en tu mensaje commit, o tener que hacer un&amp;ndash;amend por que te diste cuenta que no lo describiste bien y sobre todo tienes que volver escribir ese comando nuevamente.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

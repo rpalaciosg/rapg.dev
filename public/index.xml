@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Richard Palacios García</title>
+    <title>⚡Richard Palacios García</title>
     <link>https://www.richardpalaciosg.dev/</link>
-    <description>Recent content on Richard Palacios García</description>
+    <description>Recent content on ⚡Richard Palacios García</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.richardpalaciosg.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About</title>
+      <title>About me</title>
       <link>https://www.richardpalaciosg.dev/about/</link>
-      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.richardpalaciosg.dev/about/</guid>
-      <description>¡Hola!, soy Richard Palacios García, un Desarrollador Web de Cuenca, Ecuador. Durante el día trabajo para Mutualista Azuay como Desarrollador de Software en tecnologías AS400 IBMi; usando lenguajes como RPGIV, RPG/ILE, Java EE, C# y Bases de Datos.
-En mi tiempo libre, me gusta colaborar en proyectos de software libre los que me parecen interesantes, y en donde estoy aprendiendo mucho; uno de ellos es el de la comunidad de Python Ecuador.</description>
+      <description>¡Hola!👋, soy ⚡Richard Palacios García, un Software Engineer 👨‍💻 entusiasta 💪 siempre buscando aprender de la experiencia diaria. Descargar CV 📄
+Disfruto de javascript, Node.js, linux y comunidades Open Source. Desarrollo webs y aplicaciones con backends y frontends modernos.
+Soy esposo 💑 y papá de 2 hermosas niñas. Tengo una hermosa familia. 👨‍👩‍👧‍👧
+Actualmente trabajo para Mutualista Azuay como Analista de Desarrollo en tecnologías AS400 IBMi; usando lenguajes como RPG/ILE, C#.</description>
     </item>
     
     <item>
@@ -28,6 +30,15 @@ En mi tiempo libre, me gusta colaborar en proyectos de software libre los que me
       
       <guid>https://www.richardpalaciosg.dev/projects/</guid>
       <description>Este es mi portfolio.</description>
+    </item>
+    
+    <item>
+      <title>Mi Primer Post</title>
+      <link>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</link>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.richardpalaciosg.dev/posts/2019/07/mi-primer-post/</guid>
+      <description>Hola mundo!.Este es el primer post creado para este sitio.</description>
     </item>
     
   </channel>
