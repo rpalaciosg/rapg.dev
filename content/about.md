@@ -7,13 +7,13 @@ draft = false
   name = "Richard Palacios G."
 +++
 
-¡Hola!👋, soy ⚡Richard Palacios García, un **Software Engineer**  👨‍💻 entusiasta 💪 siempre buscando aprender de la experiencia diaria. <a class="cv" href='https://drive.google.com/file/d/1RUYtDW6Z8KiGVurfvLwlCpb9xQVrjCeZ/view'>Descargar CV 📄</a>
+¡Hola!👋, soy ⚡Richard Palacios García, un **Software Engineer**  👨‍💻 entusiasta 💪 siempre buscando aprender cosas nuevas de la experiencia diaria.
 
 Disfruto de javascript, Node.js, linux y comunidades Open Source. Desarrollo webs y aplicaciones con backends y frontends modernos.
 
 Soy <data value="de Celia">esposo 💑</data> y papá de 2 hermosas <data value="Rosi & Eli">niñas</data>. Tengo una hermosa familia. 👨‍👩‍👧‍👧
 
-Actualmente trabajo para Mutualista Azuay como Analista de Desarrollo en tecnologías AS400 IBMi; usando lenguajes como RPG/ILE, C#.
+Actualmente trabajo para [Mutualista Azuay](https://www.mutualistaazuay.com/) como Analista de Desarrollo en tecnologías AS400 IBMi; usando lenguajes como RPG/ILE, C#.
 
 
 **Algunas de las tecnologias con las que he estado trabajando últimamente:**
@@ -66,6 +66,6 @@ Algunas de las comunidades en las que he participado:
 
 ### /Costruyamos algo juntos
 
-Si esta buscando un desarrollador puedes ver mi <a class="cv" href='https://drive.google.com/file/d/1RUYtDW6Z8KiGVurfvLwlCpb9xQVrjCeZ/view'>📄CV aquí</a> 👀. Si tienes alguna pregunta, un proyecto Open Source 🔥 en el que podamos colaborar o simplemente saludar🖖 no dudes en [escribirme📧](apalaciosg91@gmail.com).
+Estoy abierto a nuevas oportunidades, puedes <a class="cv" href='https://drive.google.com/file/d/1RUYtDW6Z8KiGVurfvLwlCpb9xQVrjCeZ/view'>Descargar CV 📄</a> si buscas un desarrollador. Si tienes alguna pregunta, un proyecto Open Source 🔥 en el que podamos colaborar o simplemente quieres saludar🖖; puedes encontrarme en [GitHub](https://github.com/rpalaciosg), [Twitter](https://twitter.com/rpalaciosg_), [LinkedIn](https://www.linkedin.com/in/richardpalaciosgarcia/) o simplemente escríbeme a [📧 apalaciosg91@gmail.com](apalaciosg91@gmail.com).
 
 <style>kbd {background-color: #eee;border-radius: 3px;border: 1px solid #b4b4b4;box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;color: #333;display: inline-block;font-size: .85em;font-weight: 700;line-height: 1;padding: 2px 4px;white-space: nowrap;}.cv {background-color: #fe5186;border-radius: 7px;border: none;box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);transition: all 0.3s ease 0s;color: #fff;display: inline-block;letter-spacing: 1.5px;text-decoration: none;padding:0 7px;}.cv:hover {background-color: #fe5186;box-shadow: 0px 15px 20px rgba(254, 81, 134, 0.4);color: #fff;transform: translateY(-7px);}</style>
