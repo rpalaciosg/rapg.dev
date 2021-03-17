@@ -1,6 +1,6 @@
 ---
 title: ">$ blog init"
-date: 2019-07-24
+date: 2021-01-08
 linktitle: Mi primer Post
 author:
   name: "Richard Palacios G."
