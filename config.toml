@@ -32,7 +32,7 @@ enableEmoji     = true
 
   # Metadata mostly used in document's head
   description = "Sitio web personal y blog por Richard Palacios García"
-  keywords = "homepage, blog, dev, development, programming, web development, fullstack"
+  keywords = "Richard Palacios, Richard Palacios Garcia, javascript, ecuador, , web development, fullstack, homepage, blog, dev, development, programming"
   images = [""]
 
   homeSubtitle = "Web Developer"
@@ -88,7 +88,7 @@ enableEmoji     = true
     url        = "/about"
   [[menu.main]]
     identifier = "posts"
-    name       = "/Blog"
+    name       = "/Posts"
     url        = "/posts"
   [[menu.main]]
     identifier = "projects"
