@@ -9,8 +9,8 @@ tags: ["git","conventional-commits","alias","git aliases","commitizen","terminal
 categories: ["Terminal"]
 ---
 
-|![Ilustraciones por lukaszadam.com y Commitizen-tools](https://i.imgur.com/wuq9i61.png)| 
-|:--:| 
+|![](https://i.imgur.com/wuq9i61.png)| 
+|:--:|
 |*Ilustraciones por [lukaszadam.com](https://lukaszadam.com/illustrations) y [Commitizen-tools](https://github.com/commitizen-tools)*|
 
 
