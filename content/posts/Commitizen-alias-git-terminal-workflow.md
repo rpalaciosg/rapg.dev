@@ -9,9 +9,9 @@ tags: ["git","conventional-commits","alias","git aliases","commitizen","terminal
 categories: ["Terminal"]
 ---
 
-| ![Ilustraciones por lukaszadam.com y Commitizen-tools](https://i.imgur.com/wuq9i61.png)| 
+|![Ilustraciones por lukaszadam.com y Commitizen-tools](https://i.imgur.com/wuq9i61.png)| 
 |:--:| 
-| *Ilustraciones por [lukaszadam.com](https://lukaszadam.com/illustrations) y [Commitizen-tools](https://github.com/commitizen-tools)* |
+|*Ilustraciones por [lukaszadam.com](https://lukaszadam.com/illustrations) y [Commitizen-tools](https://github.com/commitizen-tools)*|
 
 
 Para mejorar tu productividad al momento de usar git desde la terminal, hay 2 cosas muy importantes que te pueden ayudar a conseguirlo: 
