@@ -93,7 +93,7 @@ Como ya te debes imaginar, mi configuración al rededor de Git son alias de linu
 
 Puedes encontrar mi configuración de linux alias y git aliases aquí:
 
-[![Repositorio de mis dotfiles](https://i.imgur.com/V9GYEB9.png)](https://github.com/rpalaciosg/dotfiles)
+[![My dotfiles](https://github-readme-stats.vercel.app/api/pin/?username=rpalaciosg&repo=dotfiles&show_owner=true)](https://github.com/rpalaciosg/dotfiles)
 
 ## 5. Linux 'alias' para acortar comandos
 
