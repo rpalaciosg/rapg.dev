@@ -11,7 +11,7 @@ categories: ["Terminal"]
 
 |![](https://i.imgur.com/wuq9i61.png)| 
 |:--:|
-|*Ilustraciones por [lukaszadam.com](https://lukaszadam.com/illustrations) y [Commitizen-tools](https://github.com/commitizen-tools)*|
+| Ilustración creada a partir de imagenes de [lukaszadam.com](https://lukaszadam.com/illustrations) y [Commitizen-tools](https://github.com/commitizen-tools) |
 
 
 Para mejorar tu productividad al momento de usar git desde la terminal, hay 2 cosas muy importantes que te pueden ayudar a conseguirlo: 
@@ -23,15 +23,20 @@ Para mejorar tu productividad al momento de usar git desde la terminal, hay 2 co
 Hola, soy Richard y en este post,  te explicare mi flujo de trabajo al usar Git desde la terminal , y lo necesario a configurar en tu espacio de trabajo para lograr mejorar tu productividad a la hora de usarlo en tu dia a dia.
 
 
->Te ha pasado que estas en la zona/concentrado, terminas de corregir un error o una nueva funcionalidad y te llega ese  pequeño momento de frustración en el que no sabes exactamente que escribir en tu mensaje de commit? (🤦‍♂️ o tal vez solo soy yo!!); sobre todo cuando te equivocas y tienes que hacer un --amend al darte cuenta que no lo describiste bien y tener que repensarlo, buscar el ultimo comando, escribir nuevamente el mensaje, etc, aun mas si ya hiciste push.
+>Te ha pasado que estas en la zona/concentrado, terminas de corregir un error o de crear una nueva funcionalidad y te llega ese pequeño momento de frustración en el que no sabes exactamente que escribir en tu mensaje de commit? (🤦‍♂️ o tal vez solo soy yo!!); 
+
+Es molesto sobre todo cuando te equivocas y tienes que hacer un --amend al darte cuenta que no lo describiste bien y tener que repensarlo, buscar el ultimo comando, escribir nuevamente el mensaje, etc, aun mas si ya hiciste push!!.
+
+Si esto te ha pasado, pienso que esta lectura te va a interesar.
 
 
-## 1. Por que tanto revuelo por un mensaje de commit?
+## 1. Por que tanta conmoción por un mensaje de commit?
 
-Sí, **Git** es una herramienta esencial en nuestro flujo de trabajo como programadores.  Pero igual de importante es escribir de forma correcta nuestros mensajes de commit, sobre todo siguiendo una convención como conventional commits.
+No es un mensaje de commit, es la historia y evolución de nuestro desarrollo.
 
-Lo que queremos lograr con esto, es tener y mantener un historial limpio de los cambios de nuestro código y asi tener una narrativa que simplemente leyendo los mensajes del log podamos entender como ha  
-evolucionado nuestro software durante el proceso de desarrollo.
+Sí, **Git** es una herramienta esencial en nuestro flujo de trabajo como programadores.  Pero igual de importante es escribir correctamente nuestros mensajes de commit, mejor cuando seguimos una convención como [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+
+Lo que queremos lograr con esto, es mantener un historial limpio y fácil de leer de los cambios(log) de nuestro código y convertirlo en una narrativa que solo al leerla podamos descubrir y entender el proceso y evolución de nuestro software.
 
 |![](https://i.imgur.com/hhpf2P2.jpg)|
 |:--:|
