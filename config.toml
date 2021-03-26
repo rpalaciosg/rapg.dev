@@ -31,8 +31,8 @@ enableEmoji     = true
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Sitio web personal y blog por Richard Palacios García"
-  keywords = "Richard Palacios, Richard Palacios Garcia, javascript, ecuador, , web development, fullstack, homepage, blog, dev, development, programming"
+  description = "My personal blog and portfolio by Richard Palacios García"
+  keywords = "Richard Palacios, Richard Palacios Garcia, javascript, ecuador, portfolio, web development, fullstack, homepage, blog, dev, development, programming"
   images = [""]
 
   homeSubtitle = "Web Developer"
