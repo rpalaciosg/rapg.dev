@@ -1,71 +1,103 @@
 ---
-title: "commitizen y alias: Mi receta de productividad en la terminal para escribir mejores commits"
+title: "commitizen y alias: mejora tus commits y productividad con git en la terminal"
 description: "Mi Git Workflow en git y linux para mejorar la productividad al escribir commits usando la terminal"
 date: 2021-01-29T03:34:10-05:00
 draft: false
-toc: true
-images: ["https://i.imgur.com/wuq9i61.png"]
+images: ['content/image/thumbnail_blog_post2_commitizen.png']
 tags: ["git","conventional-commits","alias","git aliases","commitizen","terminal"]
 categories: ["Terminal"]
+toc: false
 ---
 
-|![](https://i.imgur.com/wuq9i61.png)| 
-|:--:|
-| Ilustración creada a partir de imagenes de [lukaszadam.com](https://lukaszadam.com/illustrations) y [Commitizen-tools](https://github.com/commitizen-tools) |
+![](https://i.imgur.com/BM9is0G.jpg)
+
+Hola, soy Richard y en este post, te explicaré mi flujo de trabajo al usar _Git_ desde la _terminal_, y lo necesario a configurar en tu espacio de trabajo para lograr mejorar tu productividad a la hora de usarlo en tu día a día.
+
+Para mejorar tu productividad cuando usas _git_ desde la terminal, hay 2 cosas importantes que te pueden ayudar a conseguirlo: 
+
+1. Trabaja en buenos _alias_ (_git_ y _linux_)
+2. Usar _commitizen_ para asegurar una [convención](https://www.conventionalcommits.org/en/v1.0.0/) al momento de escribir _commits_.
 
 
-Para mejorar tu productividad al momento de usar git desde la terminal, hay 2 cosas muy importantes que te pueden ayudar a conseguirlo: 
+>Te ha pasado, que estás en la zona/concentrado, terminas de corregir un error, o de crear una nueva funcionalidad, y te llega ese pequeño momento de frustración en el que no sabes exactamente qué escribir en tu mensaje de _commit_? (🤦‍♂️ o tal vez solo soy yo!!)
 
-1. Trabaja en buenos alias (git y linux)
-2. Usar commitizen para asegurar una [convención](https://www.conventionalcommits.org/en/v1.0.0/) al momento de escribir commits.
-
-
-Hola, soy Richard y en este post,  te explicare mi flujo de trabajo al usar Git desde la terminal , y lo necesario a configurar en tu espacio de trabajo para lograr mejorar tu productividad a la hora de usarlo en tu dia a dia.
-
-
->Te ha pasado que estas en la zona/concentrado, terminas de corregir un error o de crear una nueva funcionalidad y te llega ese pequeño momento de frustración en el que no sabes exactamente que escribir en tu mensaje de commit? (🤦‍♂️ o tal vez solo soy yo!!); 
-
-Es molesto sobre todo cuando te equivocas y tienes que hacer un --amend al darte cuenta que no lo describiste bien y tener que repensarlo, buscar el ultimo comando, escribir nuevamente el mensaje, etc, aun mas si ya hiciste push!!.
+Es molesto sobre todo, cuando te equivocas y tienes que hacer un _--amend_ al darte cuenta de que no lo describiste bien y tener que repensarlo, buscar el último comando, escribir nuevamente el mensaje, etc., aún más si ya hiciste push!!.
 
 Si esto te ha pasado, pienso que esta lectura te va a interesar.
 
 
-## 1. Por que tanta conmoción por un mensaje de commit?
+<details>
+ <summary><strong>Tabla de Contenidos</strong></summary>
+ <ul>
+<li><a href="#punto1">1. ¿Por qué tanta conmoción por un mensaje de commit?</a></li>
+<li><a href="#punto2">2. ¿Por qué commitizen y no simplemente un cliente gráfico de Git?</a></li>
+<li><a href="#punto3">3. Requisitos</a></li>
+<li><a href="#punto4">4. Mi configuración de espacio de trabajo para Git</a></li>
+<li><a href="#punto5">5. Linux ‘alias’ para acortar comandos</a></li>
+<li><a href="#punto6">6. Configurando git aliases</a></li>
+<ul><li><a href="#punto6.1">Listar tus git aliases configurados</a></li></ul>
+<li><a href="#punto7">7. Usando nuestros “alias”</a></li>
+<li><a href="#punto8">8. Usando commitizen para escribir buenos mensajes de commit</a></li>
+    <ul>
+        <li><a href="#punto8.1">Haciendo nuestro repositorio commitizen friendly</a></li>
+        <li><a href="#punto8.2">Escribiendo un commit con Commitizen</a></li>
+        <li><a href="#punto8.3">Formateando mi git log en una sola linea (git aliases)</a></li>
+        <li><a href="#punto8.4">Formateando y detallando mi git log (git aliases)</a></li>
+    </ul>
+<li><a href="#punto9">9. Conclusion</a></li>
+<li><a href="#punto10">10. Recursos</a></li>
+ </ul>
+</details>
 
-No es un mensaje de commit, es la historia y evolución de nuestro desarrollo.
+##### Tabla de Contenidos
 
-Sí, **Git** es una herramienta esencial en nuestro flujo de trabajo como programadores.  Pero igual de importante es escribir correctamente nuestros mensajes de commit, mejor cuando seguimos una convención como [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+- [1. Por que tanta conmoción por un mensaje de commit?](#1.-Por-que-tanta-conmoción-por-un-mensaje-de-commit?)
+- [2. Por que commitizen y no simplemente usar un cliente gráfico de Git?](#2.-Por-que-commitizen-y-no-simplemente-usar-un-cliente-gráfico-de-Git?)
+- [3. Requisitos](#3.-Requisitos)
+- [4. Mi configuración de espacio de trabajo para Git](#4.-Mi-configuración-de-espacio-de-trabajo-para-Git)
+- [5. Linux ‘alias’ para acortar comandos](#5.-Linux-‘alias’-para-acortar-comandos)
+- [6. Configurando git aliases](#6.-Configurando-git-aliases)
+    - [Listar tus git aliases configurados](#Listar-tus-git-aliases-configurados)
+- [7. Usando nuestros “alias”](#7.-Usando-nuestros-"alias")
+- [8. Usando commitizen para escribir buenos mensajes de commit](#8.-Usando-commitizen-para-escribir-buenos-mensajes-de-commit)
+    - [Haciendo nuestro repositorio commitizen friendly](#Haciendo-nuestro-repositorio-commitizen-friendly)
+    - [Escribiendo un commit con Commitizen](#Escribiendo-un-commit-con-Commitizen)
+    - [Formateando mi git log en una sola linea (git aliases)](#Formateando-mi-git-log-en-una-sola-linea-(git-aliases))
+    - [Formateando y detallando mi git log (git aliases)](#Formateando-y-detallando-mi-git-log-(git-aliases))
+- [9. Conclusion](#9.-Conclusion)
+- [10. Recursos](#10.-Recursos)
 
-Lo que queremos lograr con esto, es mantener un historial limpio y fácil de leer de los cambios(log) de nuestro código y convertirlo en una narrativa que solo al leerla podamos descubrir y entender el proceso y evolución de nuestro software.
+<h2 id="punto1">1. ¿Por qué tanta conmoción por un mensaje de commit?</h2>
 
-|![](https://i.imgur.com/hhpf2P2.jpg)|
-|:--:|
-|Photo by [C Dustin](https://unsplash.com/@dianamia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](/s/photos/construction?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+No solo es un mensaje de _commit_, es la historia y evolución de nuestro desarrollo.
+Sí, **Git** es una herramienta esencial en nuestro flujo de trabajo como programadores. Pero igual de importante, es escribir correctamente nuestros mensajes de commit, mejor cuando seguimos una convención como [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+
+Lo que queremos lograr con esto, es mantener un historial limpio y fácil de leer de los cambios(_logs_) de nuestro código, y convertirlo en una narrativa que solo al leerla, podamos descubrir y entender el proceso y evolución de nuestro software.
 
 > The git log is a narrative of how development is progressing. Keep it clean.  
 _Juan J. Merelo_
 
-## 2. Por que commitizen y no simplemente usar un cliente gráfico de Git?
+
+<h2 id="punto2">2. ¿Por qué commitizen y no simplemente un cliente gráfico de Git?</h2>
   
 
-Es cierto y valido, actualmente existen herramientas graficas que facilitan el trabajo al momento de versionar tu codigo con git, y sobre todo al visualizar el historial de cambios que has realizado, pero aun no conozco alguno que integre estos linters de commits como conventional commits. (_Si conoces alguno que sea open source por favor házmelo saber!!_)
+Es cierto y válido, actualmente existen herramientas gráficas que facilitan el trabajo, al  versionar tu código con _git_, y sobre todo al visualizar el historial de cambios que has realizado; pero aún no conozco alguno, que integre _linters_ de _commits_ como conventional commits. (_Si conoces alguno que sea open source por favor házmelo saber!!_)
 
-A parte de esto, la ventaja que obtendremos al usar commitizen y alias a traves del terminal,  en mi opinion no tiene nada que envidiarle a una app gráfica, !bueno la UI de logs tal vez!, pero como dicen por ahi, "para gustos, colores!". ya que encontré una forma de arreglar esto con un alias que veremos mas adelante.
+Aparte de esto, la ventaja que obtendremos al usar _commitizen_ y _alias_ a través del terminal, en mi opinión, no tiene nada que envidiarle a una app gráfica, ! Bueno la _UI_ de _logs_ tal vez!; pero como dicen por ahí, “para gustos, colores!". Además, encontré una forma de arreglar esto con un _alias_, el que veremos más adelante.
 
-Basta decir que por el gusto de usar la terminal, ademas de que esta bueno entender bien las bases de git y saber que comandos estas usando realmente; asi no tener dificultades con alguna herramienta que te puedas encontrar en el futuro.
+Basta decir que por el gusto de usar la terminal, además de que, está buenísimo entender bien las bases de git y saber que comandos estás usando realmente; así no tener dificultades con alguna herramienta que te puedas encontrar en el futuro.
 
-## 3. Requisitos
+<h2 id="punto3">3. Requisitos</h2>
 
-Por lo general me gusta trabajar sobre linux, por eso para seguir este post y empezar tu configuración es necesario lo siguiente:
+Por lo general, me gusta trabajar sobre linux, por eso para seguir este post y empezar tu configuración es necesario lo siguiente:
 
-- Tener una maquina con linux o tener instalado [WSL](https://docs.microsoft.com/en-us/windows/wsl/about) si estas en windows 10.
+- Tener una máquina con _linux_ o [WSL](https://docs.microsoft.com/en-us/windows/wsl/about)  instalado, si estás en _windows 10_.
 - Tener instalado [Git](https://git-scm.com/downloads)
-- Tener instalado npm y [Node.js](https://nodejs.org/en/)
+- Tener instalado _npm_ y [Node.js](https://nodejs.org/en/)
 
-_Ten en cuenta que seria bueno que ya conozcas las bases de git para entender o darle sentido a esta lectura, pero aun asi, intentare hacerlo fácil de seguir._
+_Ten en cuenta que sería bueno que ya conozcas las bases de git para entender o darle sentido a esta lectura, pero aun así, intentaré hacerlo fácil de seguir._
 
-
-## 4. Mi configuración de espacio de trabajo para Git
+<h2 id="punto4">4. Mi configuración de espacio de trabajo para Git</h2>
 
 Como ya te debes imaginar, mi configuración al rededor de Git son alias de linux, git aliases y commitizen.
 
@@ -93,9 +125,10 @@ Como ya te debes imaginar, mi configuración al rededor de Git son alias de linu
 
 Puedes encontrar mi configuración de linux alias y git aliases aquí:
 
-[![My dotfiles](https://github-readme-stats.vercel.app/api/pin/?username=rpalaciosg&repo=dotfiles&show_owner=true)](https://github.com/rpalaciosg/dotfiles)
+[![My dotfiles](https://github-readme-stats.vercel.app/api/pin/?username=rpalaciosg&repo=dotfiles&show_owner=true?theme=bear)](https://github.com/rpalaciosg/dotfiles)
 
-## 5. Linux 'alias' para acortar comandos
+
+<h2 id="punto5">5. Linux 'alias' para acortar comandos</h2>
 
 Por lo general al usar la terminal, escribes un comando o combinación de comandos, por ejemplo `git` o `ls`. Aveces es un poco molesto cuando tienes que repetir muchas veces el mismo comando  (y eso que este es uno de los cortos),  entonces es aquí donde puedes usar un alias. 
 
@@ -131,7 +164,8 @@ En la siguiente imagen puedes ver los alias pre-configurados en el plugin _git_ 
 
 Aunque estos alias son muy útiles, siempre toma un tiempo aprenderlos, incluso no llegas a usarlos todos. Por eso te recomiendo que estos alias los tengas de referencia para crear los tuyos y asi irles aprendiendo durante la marcha según los necesites, como yo lo hice.
 
-## 6. Configurando git aliases
+
+<h2 id="punto6">6. Configurando git aliases</h2>
 
 Algo que percibí, es que al usar `linux alias` para comandos git, me limitaban a poder usarlos solo en ambientes linux, y debido a que aveces suelo usar git en windows;   
 Basándome en los alias que tiene el plugin Git de oh-my-zsh, decidí configurar esos alias dentro de mi configuración de git como aliases. 
@@ -173,53 +207,57 @@ Si deseamos configurar varios _alias_ a la vez, abrimos el fichero `.gitconfig` 
 
 De esta forma puedes crear los alias que mas te gusten.  Lo mas recomendable es que crees los que uses mas a menudo y según tus necesidades, ya queda al alcance de tu imaginación.
 
-### Listar tus git aliases configurados
 
-Puedes tener un alias que te muestre un listado de todos tus alias configurados, para crearlo escribe la siguiente linea en tu terminal:
+<h3 id="punto6.1">Listar tus git aliases configurados</h3>
+
+Puedes tener un _alias_, que te muestre un listado de todos tus _alias_ configurados, para crearlo escribe la siguiente línea en tu _terminal_:
 
 ```shell
 git config --global alias.alias "! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\ =\ /"
 ```
 
-Luego para probarlo, escribe `git alias` en tu terminal y veras como se listan todos los _git aliases_ que configuraste:
+Luego para probarlo, escribe `git alias` en tu _terminal_ y veras como se listan todos los _git aliases_ que configuraste:
 
 |![](https://i.imgur.com/4qdwBs5.png)|
 |:--:|
-|Creando un alias para listar `git aliases`|
+|Creando un _alias_ para listar `git aliases`|
 
-## 7. Usando nuestros "alias"
 
-Para probar los nuevos alias configurados vamos a crear un nuevo repositorio. Entonces dentro de un nuevo directorio con el nombre que prefieras, abrimos un terminal y ejecutamos el comando  `g init` o `git init` para inicializarlo. _como puedes ver usamos el linux alias g_
+<h2 id="punto7">7. Usando nuestros "alias"</h2>
+
+Para probar los nuevos _alias_ configurados, crearemos un nuevo repositorio. Entonces, dentro de un nuevo directorio con el nombre que prefieras, abrimos un terminal y ejecutamos el comando `g init` o `git init` para inicializar el repositorio. _como puedes ver usamos el linux alias `g`_
 
 |![](https://i.imgur.com/GbHpFLz.png)|
 |:--:|
-|Usando alias `g` para comando `git`|
+|Usando _alias_ `g` para el comando `git`|
 
-Ahora podemos crear archivos dentro del repositorio para añadirlos al staging area con un `git add <archivo>` o en nuestro caso el comando abreviado `g add README.md`.
+Ahora podemos crear archivos dentro del repositorio, y para añadirlos al _staging area_ con un `git add <archivo>` o en nuestro caso el comando abreviado `g add README.md`.
 
 |![](https://i.imgur.com/4hCnKYH.png)|
 |:--:|
-| Usando alias `g add`|
+| Usando _alias_ `g add`|
 
-Si hacemos un `g st` o `git status` nos damos cuenta que los archivos están listos para ser "commiteados" o registrados en el log del repositorio. _como puedes ver ahora usamos la combinación de linux alias y git aliases_
+Si hacemos un `g st` o `git status`, nos damos cuenta que los archivos están listos para ser _"commiteados/versionados"_ o registrados en el _log_ del repositorio. _como puedes ver ahora usamos la combinación de linux alias y git aliases_
 
 |![](https://i.imgur.com/Ou3rgvw.png)|
 |:--:|
 |Usando alias `g status`|
 
-## 8. Usando commitizen para escribir buenos mensajes de commit
 
-Para hacer commit de tus cambios escribes  `git commit` , o si usamos nuestros alias configurados escribiríamos  `g commit` o `g c` , al hacerlo se abrirá un editor donde describes tu mensaje commit.
+<h2 id="punto8">8. Usando commitizen para escribir buenos mensajes de commit</h2>
 
-Pero esto puede ser un poco molesto, si existe una herramienta llamada [commitizen](https://github.com/commitizen/cz-cli), que mejora la experiencia al escribir commits y de paso le anade convenciones de buenas practicas.
+Para hacer commit de tus cambios, escribes `git commit`, o si usamos nuestros alias configurados escribiríamos `g commit` o `g c`, al hacerlo se abrirá un editor donde describirás tu mensaje _commit_.
 
-Al usar [commitizen](https://github.com/commitizen/cz-cli)  a traves de su CLI, en lugar de escribir commit podemos usar el comando `cz` y simplemente escribiendo en nuestro terminal `git cz` , `g cz` o solo `cz` , commitizen reconocerá este comando y lanzara una pequeña app cli, que de forma interactiva nos guiara para completar y describir nuestro mensaje de commit. Un ejemplo en la imagen siguiente.
+Pero, esto podría ser un poco molesto, si existe una herramienta llamada [commitizen](https://github.com/commitizen/cz-cli), que mejora la experiencia al escribir _commits_ y de paso le añade convenciones de buenas prácticas.
+
+Al usar [commitizen](https://github.com/commitizen/cz-cli) a través de su _CLI_, en lugar de escribir el comando `git commit` podemos usar el comando `cz` y solo escribiendo en nuestro terminal `git cz`, `g cz` o simplemente `cz`, _commitizen_ reconocerá este comando y lanzara una pequeña _app cli_, que de manera interactiva, nos guiará para completar y escribir nuestro mensaje de commit. Podemos ver un ejemplo en la imagen siguiente.
 
 |![](https://i.imgur.com/pbVqOgj.png)|
 |:--:|
 |Usando [commitizen](https://github.com/commitizen/cz-cli) a traves del comando `cz`|
 
-### Haciendo nuestro repositorio commitizen friendly
+
+<h3 id="punto8.1">Haciendo nuestro repositorio commitizen friendly</h3>
 
 Antes de poder usar las ventajas de  [commitizen](https://github.com/commitizen/cz-cli), debemos configurar nuestro repositorio y hacerlo Commitizen friendly como lo llaman los creadores. Esto lo hacemos escribiendo lo siguiente en nuestro terminal:
 
@@ -232,7 +270,7 @@ Antes de poder usar las ventajas de  [commitizen](https://github.com/commitizen/
     _Esto agregara en el archivo package.json a commitizen como una dependencia de desarrollo._
 
 
-### Escribiendo un commit con Commitizen
+<h3 id="punto8.2">Escribiendo un commit con Commitizen</h3>
 
 Ahora estamos listos para hacer un commit usando commitizen. 
 
@@ -272,8 +310,7 @@ También nos pregunta si este cambio afecta algún issue o problema abierto dond
 Al final se creara el commit con un mensaje que usa  un formato con convenciones y buenas practicas `feat(*): commit inicial` , y esto con ayuda de `commitizen`.
 
 
-
-### Formateando mi git log en una sola linea (git aliases)
+<h3 id="punto8.3">Formateando mi git log en una sola linea (git aliases)</h3>
 
 Si queremos ver como quedo nuestro mensaje commit, podemos escribir `git log` o `g l` si tenemos configurado un alias, para poder ver el historial de cambios de nuestro repositorio.
 
@@ -292,7 +329,8 @@ Entonces para usarlo debes escribir `g l` y tendrás un resultado parecido.
 
 En internet encuentras mucha información, sobre modelos y colores del formato en el que se muestra tu git log, su forma de personalizar es muy flexible y con muchas alternativas según tu Sistema Operativo.
 
-### Formateando y detallando mi git log (git aliases)
+
+<h3 id="punto8.4">Formateando y detallando mi git log (git aliases)</h3>
 
 Tengo configurado un alias diferente también para el comando git log, pero que muestra mas a detalle los archivos ue fueron modificados en cada commit, para eso escribe el siguiente comando en tu terminal:
 
@@ -307,7 +345,7 @@ Entonces si ejecuto `g ll` o `git ll`, obtengo lo siguiente (este es el log de o
 |Resultado del alias `g ll` o `git ll`|
 
 
-## 9. Conclusion
+<h2 id="punto9">9. Conclusion</h2>
 
 Puedes estar pensando, que tal vez no vale la pena instalar y depender de una librería solo para escribir un commit. Pero como en todo, eso depende:
 
@@ -333,18 +371,16 @@ Te invito a que pruebes [commitizen](https://github.com/commitizen/cz-cli) y que
 
 Eres libre de revisar [mis Dotfiles](https://github.com/rpalaciosg/dotfiles) y darme tu opinion, tengo algunas cosas nuevas que descubrí y que estoy probando.
 
-
-<details>
-   <summary>Si tienes alguna duda o feedback sobre este contenido no dudes en hacérmelo saber.</summary>
+<strong>Si tienes alguna duda o feedback sobre este contenido no dudes en hacérmelo saber.</strong>
    <ul>
     <li><a href='apalaciosg91@gmail.com'>📧 apalaciosg91@gmail.com</a></li>
     <li><a href='https://github.com/rpalaciosg'>👨🏽‍💻GitHub: rpalaciosg</a></li>
     <li><a href='https://twitter.com/rpalaciosg_'>🐦Twitter: rpalaciosg_</a></li>
     <li><a href='https://www.linkedin.com/in/richardpalaciosgarcia/'>💼LinkedIn: richardpalaciosgarcia</a></li>
    </ul>
-</details>
 
-## 10. Recursos
+
+<h2 id="punto10">10. Recursos</h2>
 
 - [https://git.wiki.kernel.org/index.php/Aliases#Use_graphviz_for_display](https://git.wiki.kernel.org/index.php/Aliases#Use_graphviz_for_display)
 - [https://jasonm23.github.io/oh-my-git-aliases.html](https://jasonm23.github.io/oh-my-git-aliases.html)
