@@ -11,7 +11,8 @@ toc: false
 
 ![](https://i.imgur.com/BM9is0G.jpg)
 
-Hola, soy Richard y en este post, te explicaré mi flujo de trabajo al usar _Git_ desde la _terminal_, y lo necesario a configurar en tu espacio de trabajo para lograr mejorar tu productividad a la hora de usarlo en tu día a día.
+
+<strong>Hola, soy Richard y en este post, te explicaré mi flujo de trabajo al usar _Git_ desde la _terminal_, y lo necesario a configurar en tu espacio de trabajo para lograr mejorar tu productividad a la hora de usarlo en tu día a día.</strong>
 
 Para mejorar tu productividad cuando usas _git_ desde la terminal, hay 2 cosas importantes que te pueden ayudar a conseguirlo: 
 
