@@ -106,7 +106,7 @@ Como ya te debes imaginar, mi configuración al rededor de Git son alias de linu
 
     Commitizen es un *cli* "command line interface tool" que nos ayuda a escribir mesajes de commits mas amigables siguiendo un estandar de convenciones y buenas practicas, con la ayuda de linters y herramientas que puedes configurar.
 
-Puedes encontrar mi configuración de linux alias y git aliases aquí:
+Puedes encontrar mi configuración de _linux alias_ y _git aliases_ aquí:
 
 [![My dotfiles](https://github-readme-stats.vercel.app/api/pin/?username=rpalaciosg&repo=dotfiles&show_owner=true?theme=bear)](https://github.com/rpalaciosg/dotfiles)
 
@@ -121,9 +121,9 @@ En este caso configuro un alias `g` para el comando git .
 
 Ahora abrimos nuestro archivo de configuracion del shell que uses ya `~/.bashrc` de bash o  `~/.zshrc`  de zshell (es el que uso) y agregamos esta linea alias g=git al final del archivo o en la sección #alias si esta ya existe . 
 
-| ![Mi archivo ~/.zshrc](https://i.imgur.com/cyNnGqN.png)| 
-|:--:| 
-| *Mi archivo [~/.zshrc](https://github.com/rpalaciosg/dotfiles/blob/master/.zshrc)* |
+|![Mi archivo zshrc](https://i.imgur.com/cyNnGqN.png)| 
+|:--:|
+|*Mi archivo [~/.zshrc](https://github.com/rpalaciosg/dotfiles/blob/master/.zshrc)* |
 
 Ahora si nos dirigimos a nuestra terminal, en el directorio de uno de nuestros repositorios de git, podemos usar git, reemplazando el comando `git` por `g`, Ejm:
 
@@ -247,10 +247,12 @@ Antes de poder usar las ventajas de  [commitizen](https://github.com/commitizen/
 1. Instalamos el paquete npm esc`npm install -g commitizen` , 
 2. Inicializamos un proyecto npm escribiendo `npm init`
 3. Configuramos nuestro repositorio para usar `cz-conventional-changelog` adapter, escribiendo:
-    ```shell
-    commitizen init cz-conventional-changelog --save-dev --save-exact
-    ```
-    _Esto agregara en el archivo package.json a commitizen como una dependencia de desarrollo._
+
+```shell
+commitizen init cz-conventional-changelog --save-dev --save-exact
+```
+
+_Esto agregara en el archivo package.json a commitizen como una dependencia de desarrollo._
 
 
 <h3 id="punto8.2">Escribiendo un commit con Commitizen</h3>
