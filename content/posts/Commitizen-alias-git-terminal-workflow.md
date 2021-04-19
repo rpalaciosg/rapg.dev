@@ -49,23 +49,6 @@ Si esto te ha pasado, pienso que esta lectura te va a interesar.
  </ul>
 </details>
 
-##### Tabla de Contenidos
-
-- [1. Por que tanta conmoción por un mensaje de commit?](#1.-Por-que-tanta-conmoción-por-un-mensaje-de-commit?)
-- [2. Por que commitizen y no simplemente usar un cliente gráfico de Git?](#2.-Por-que-commitizen-y-no-simplemente-usar-un-cliente-gráfico-de-Git?)
-- [3. Requisitos](#3.-Requisitos)
-- [4. Mi configuración de espacio de trabajo para Git](#4.-Mi-configuración-de-espacio-de-trabajo-para-Git)
-- [5. Linux ‘alias’ para acortar comandos](#5.-Linux-‘alias’-para-acortar-comandos)
-- [6. Configurando git aliases](#6.-Configurando-git-aliases)
-    - [Listar tus git aliases configurados](#Listar-tus-git-aliases-configurados)
-- [7. Usando nuestros “alias”](#7.-Usando-nuestros-"alias")
-- [8. Usando commitizen para escribir buenos mensajes de commit](#8.-Usando-commitizen-para-escribir-buenos-mensajes-de-commit)
-    - [Haciendo nuestro repositorio commitizen friendly](#Haciendo-nuestro-repositorio-commitizen-friendly)
-    - [Escribiendo un commit con Commitizen](#Escribiendo-un-commit-con-Commitizen)
-    - [Formateando mi git log en una sola linea (git aliases)](#Formateando-mi-git-log-en-una-sola-linea-(git-aliases))
-    - [Formateando y detallando mi git log (git aliases)](#Formateando-y-detallando-mi-git-log-(git-aliases))
-- [9. Conclusion](#9.-Conclusion)
-- [10. Recursos](#10.-Recursos)
 
 <h2 id="punto1">1. ¿Por qué tanta conmoción por un mensaje de commit?</h2>
 
