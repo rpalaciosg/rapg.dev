@@ -1,10 +1,10 @@
 baseURL = "https://www.richardpalaciosg.dev/"
 languageCode = "en-us"
-title = "Richard Palacios G."
+title = "Digital Garden de Richard Palacios G."
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "dracula"
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message 
@@ -17,7 +17,7 @@ enableEmoji     = true
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Richard Palacios G.⚡"
+  name = "Richard Palacios G." 
 
 [taxonomies]
   tag      = "tags"
@@ -31,11 +31,11 @@ enableEmoji     = true
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "My personal blog and portfolio by Richard Palacios García"
-  keywords = "Richard Palacios, Richard Palacios Garcia, javascript, ecuador, portfolio, web development, fullstack, homepage, blog, dev, development, programming"
+  description = "My digital garden, resume, personal blog and portfolio by Richard Palacios García"
+  keywords = "Richard Palacios, Richard Palacios Garcia, javascript, ecuador, portfolio, web development, fullstack, homepage, blog, dev, development, programming, software engineer"
   images = [""]
 
-  homeSubtitle = "Web Developer"
+  homeSubtitle = "JavaScript Software Engineer"
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = true  # Set "text-align: justify" to .content.
@@ -48,8 +48,8 @@ enableEmoji     = true
 [languages]
   [languages.en]
     title = "⚡Richard Palacios García"
-    subtitle = "Web Developer"
-    keywords = "Web Developer"
+    subtitle = "JavaScript Software Engineer"
+    keywords = "Web Developer - Richard Palacios, Richard Palacios Garcia, javascript, ecuador, portfolio, web development, fullstack, homepage, blog, dev, development, programming, software engineer"
     copyright = ""
     readOtherPosts = "Lee otras publicaciones"
 
@@ -77,6 +77,15 @@ enableEmoji     = true
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/richardpalaciosgarcia/"
+
+#  [[params.social]]
+#    name = "Hackerrank"
+#    url  = "https://www.hackerrank.com/rpalaciosg?hr_r=1"
+  
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://www.stackoverflow.com/"
+
 
 
 
