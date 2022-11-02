@@ -1,7 +1,7 @@
 ---
 title: "Resumen: Códigos de Estado HTTP"
 date: 2022-11-01T23:43:25-05:00
-draft: true
+draft: false
 toc: false
 images:
 tags: ["http", "http codes", "http status code", "rest api"]
