@@ -1,16 +1,15 @@
 ---
 title: "Resumen: Códigos de Estado HTTP"
 date: 2022-11-01T23:43:25-05:00
-draft: false
 toc: false
 images:
 tags: ["http", "http codes", "http status code", "rest api"]
 categories: ["http", "buenas practicas", "api", "rest api"]
 ---
 
-|                                                                                                          ![Imagen del código de estado http 401](https://unsplash.com/photos/PrkG7QC8V_0)                                                                                                          |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| _Photo by <a href="https://unsplash.com/@suicide_chewbacca?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ashwini Chaudhary(Monty)</a> on <a href="https://unsplash.com/s/photos/http-codes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>_ |
+|                                                                                                          ![Imagen del código de estado http 401](https://i.imgur.com/IMB3Pex.jpg)                                                                                                           |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| _Image based on Photo by [Ashwini Chaudhary(Monty)](https://unsplash.com/@suicide_chewbacca?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/http-codes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_ |
 
 El buen diseño de una `REST API` depende mucho de conocer los principales códigos de estado `HTTP`, el saber como y cuando usarlos pondrá en evidencia la experiencia que tenemos como desarrolladores al crear API's.
 
