@@ -1,4 +1,4 @@
-baseURL = "https://richardpalaciosg.dev/"
+baseURL = "https://rapg-dev.vercel.app/"
 languageCode = "en-us"
 title = "Digital Garden de Richard Palacios G."
 theme = "hello-friend-ng"
