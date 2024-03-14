@@ -24,7 +24,8 @@ draft = false
 
 Tengo experiencia en desarrollo de software, trabajando con los stakeholders para ayudarles a entender y satisfacer sus necesidades.
 
-<a class="cv" href='https://richardpalaciosg.notion.site/My-Resume-9f9b692f9efa4ba392f70385064eaebd' target='_blank'>ver mi CV 📄</a>
+<!--<a class="cv" href='https://richardpalaciosg.notion.site/My-Resume-9f9b692f9efa4ba392f70385064eaebd' target='_blank'>Resume(PDF)📄</a>-->
+<a class="cv" href='https://drive.google.com/file/d/14z8pl6PViWUA9_DdM1DughaQ48Qdaobr/view' target='_blank'>Resume(PDF)📄</a>
 
 ### /What I do
 
