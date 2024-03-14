@@ -1,4 +1,4 @@
-baseURL = "https://rapg-dev.vercel.app/"
+baseURL = "https://www.richardpalacios.dev/"
 languageCode = "en-us"
 title = "Digital Garden de Richard Palacios G."
 theme = "hello-friend-ng"
@@ -35,7 +35,7 @@ enableEmoji     = true
   keywords = "Richard Palacios, Richard Palacios Garcia, javascript, ecuador, portfolio, web development, fullstack, homepage, blog, dev, development, programming, software engineer"
   images = [""]
 
-  homeSubtitle = "JavaScript Software Engineer"
+  homeSubtitle = "FullStack Software Engineer"
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   justifyContent = true  # Set "text-align: justify" to .content.
@@ -48,7 +48,7 @@ enableEmoji     = true
 [languages]
   [languages.en]
     title = "⚡Richard Palacios García"
-    subtitle = "JavaScript Software Engineer"
+    subtitle = "FullStack Software Engineer"
     keywords = "Web Developer - Richard Palacios, Richard Palacios Garcia, javascript, ecuador, portfolio, web development, fullstack, homepage, blog, dev, development, programming, software engineer"
     copyright = ""
     readOtherPosts = "Lee otras publicaciones"
