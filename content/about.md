@@ -8,28 +8,54 @@ draft = false
 +++
 
 <div class="me">
-
+<div class="card">
 <div class="me-photo" >
    <img  src="https://i.imgur.com/UjDA3gZ.png" alt="foto de Richard Palacios" >
-   </div>
-   <div class="me-content">
-   ¡Hola!👋, soy ⚡Richard Palacios García, un 👨‍💻 <samp>Software Engineer</samp> graduado en Cuenca, Ecuador. Como Ingeniero de software SSr. estoy constantemente 💪 aprendizaje, buscando revolver problemas, así es como entre en las tecnologías Mainframe en una institución financiera.
+</div>
+<h2>Richard Palacios G.</h2>
+<a class="cv" href='https://drive.google.com/file/d/14z8pl6PViWUA9_DdM1DughaQ48Qdaobr/view' target='_blank'>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"></path></svg>
+Resume(PDF)📄
+</a>
+</div>
 
-<samp>Estoy en busca de mi próximo reto como Desarrollador Backend NodeJS.</samp>
+   <div class="me-content">
+Soy un Ingeniero de software <strong>apasionado</strong> por la <strong>mejora continua</strong> y la búsqueda de soluciones innovadoras. A lo largo de mi carrera, he dedicado mi esfuerzo a superar desafíos 💪 y aprender de cada experiencia para convertirme en un profesional más completo.
+
+  Si bien no me considero un líder nato, poseo una gran capacidad de iniciativa y responsabilidad. Asumo con entusiasmo los desafíos y me esfuerzo por desarrollar mis habilidades de liderazgo para contribuir al éxito del equipo.
+
+Con más de 8 años de experiencia en desarrollo de software entre ellas tecnologías web como JavaScript, React.js, Node.js y .Net, mainframe como AS400 (RPG, RPG/ILE), estoy comprometido con la entrega de resultados tangibles y pragmáticos. He aprendido a navegar por la complejidad del código heredado/legacy, refactorizarlo y optimizarlo para mejorar su eficiencia.
 
    </div>
 </div>
 
-> Creo que la persistencia es la clave del éxito.
+Estoy en constantemente búsqueda de aprender mejores prácticas para implementarlas en mis proyectos, puedo aplicar mis habilidades en puestos como:
+<strong>Desarrollador Backend NodeJS</strong>, <strong>desarrollador Full Stack</strong> o <strong>Desarrollador Front-End React</strong>.
 
-Tengo experiencia en desarrollo de software, trabajando con los stakeholders para ayudarles a entender y satisfacer sus necesidades.
+Asumo la responsabilidad de mi aprendizaje continuo y desarrollo profesional para brindar lo mejor de mis habilidades, actualmente me encuentro aprendiendo:
 
-<!--<a class="cv" href='https://richardpalaciosg.notion.site/My-Resume-9f9b692f9efa4ba392f70385064eaebd' target='_blank'>Resume(PDF)📄</a>-->
-<a class="cv" href='https://drive.google.com/file/d/14z8pl6PViWUA9_DdM1DughaQ48Qdaobr/view' target='_blank'>Resume(PDF)📄</a>
+- <a href="https://go.dev/" target="_blank">Golang</a>
+  - [Go by Example](https://gobyexample.com/)
+  - [A tour of Go](https://go.dev/tour/list)
+   
+- **Arquitectura de Software**
+   - [Codely.tv](https://codely.com/cursos?utm_source=youtube&utm_medium=social&utm_campaign=course-launch&utm_content=ddd)
+
+
+
+> Mi lema es la **perseverancia**, y estoy convencido de que, con esfuerzo y dedicación, puedo contribuir significativamente al éxito de su organización.
+
+### /Get in touch
+
+Me encantaría tener la oportunidad de discutir cómo mis habilidades y experiencia pueden beneficiar a su proyecto u organización.
+Puedes encontrarme por [📧 email](apalaciosg91@gmail.com), [Telegram](https://t.me/rpalaciosg), [GitHub](https://github.com/rpalaciosg), [Twitter](https://twitter.com/rpalaciosg_),  [LinkedIn](https://www.linkedin.com/in/richardpalaciosgarcia/).
+
+
+<!--<a class="cv" href='https://drive.google.com/file/d/14z8pl6PViWUA9_DdM1DughaQ48Qdaobr/view' target='_blank'>Resume(PDF)📄</a>-->
 
 ### /What I do
 
-Disfruto de javascript, Node.js, linux y comunidades Open Source. Desarrollo webs y aplicaciones con backends y frontends modernos.
+<!--Disfruto de javascript, Node.js, linux y comunidades Open Source. Desarrollo webs y aplicaciones con backends y frontends modernos.-->
 
 <div class="slate-column-container">
 <div class="slate-column">
@@ -49,20 +75,9 @@ Disfruto de javascript, Node.js, linux y comunidades Open Source. Desarrollo web
    </div>
 </div>
 </div>
-<div class="slate-column-container">
-   <div class="slate-column">
-      <div class="slate-column-item">
-         <p class="slate-header"><strong>Trabajo</strong></p>
-         <p class="slate-content"><span>Actualmente soy Software Engineer en <a href="https://www.mutualistaazuay.com/" target="_blank">Mutualista Azuay 🏦.</a></span></p>
-      </div>
-      <div class="slate-column-item">
-         <p class="slate-header"><strong>Personal</strong></p>
-         <p class="slate-content"><span>Tengo una pequeña gran familia, estoy casado con Celia y tenemos 2 hermosas niñas Rosi🌷 y Eli🐹.</span></p>
-      </div>      
-   </div>
-</div>
 
-**Skills y algunas de las herramientas o tecnologías con las que he estado trabajando últimamente:**
+### /Skills & Tech
+**Algunas Skills, herramientas o tecnologías de interes con las que he estado trabajado o probado:**
 
 <details>
 <summary> <strong>/Tools</strong><small> -> Lenguajes y frameworks</small></summary>
@@ -75,8 +90,8 @@ Disfruto de javascript, Node.js, linux y comunidades Open Source. Desarrollo web
 <kbd>Web Development</kbd> <kbd>Backend Development</kbd> <kbd>Responsive Design</kbd> <kbd>Frontend Development</kbd> <kbd>self-taught person</kbd> <kbd>Empathy</kbd> <kbd>Teamwork</kbd> <kbd>Continuous learning</kbd> <kbd>Continuous improvement</kbd> <kbd>Open-source Software</kbd> <kbd>Containers</kbd> <kbd>Linux</kbd> <kbd>Fluent English(in progress)</kbd>
 </details>
 
-### /Get in touch
+### /Let's build together
 
 Construyamos algo juntos!! si buscas un desarrollador, tienes alguna pregunta, algún proyecto Open Source 🔥, quieres hablar o saludar👋🏽, puedes escribirme a [📧 mi email](apalaciosg91@gmail.com), [Telegram](https://t.me/rpalaciosg). También puedes encontrarme en [GitHub](https://github.com/rpalaciosg), [Twitter](https://twitter.com/rpalaciosg_), o [LinkedIn](https://www.linkedin.com/in/richardpalaciosgarcia/).
 
-<style>.me{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; gap:20px;  width:100%;} .me-photo{align-self:auto; max-width:150px; max-heigh:150px;} .me-content {width:590px; max-width:100%;} kbd {background-color: #eee;border-radius: 3px;border: 1px solid #b4b4b4;box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;color: #333;display: inline-block;font-size: .85em;font-weight: 700;line-height: 1;padding: 2px 4px;white-space: nowrap;} .cv {background-color: #fe5186;border-radius: 7px;border: none;box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);transition: all 0.3s ease 0s;color: #fff;display: inline-block;letter-spacing: 1.5px;text-decoration: none;padding:0 7px; position: right;}.cv:hover {background-color: #fe5186;box-shadow: 0px 15px 20px rgba(254, 81, 134, 0.4);color: #fff;transform: translateY(-7px);} .slate-column-container{display:flex; justify-content:center;} .slate-column{display: flex; flex-wrap:wrap;flex-direction: row; align-items: stretch; justify-content: center; position: relative; min-height:216px; }.slate-column-item{display: flex; flex-direction: column; justify-content:center; align-item: flex-start;width:259px; padding: 20px 15px;}.slate-header{width:250px; max-width: min(100%, 600px); text-align: center; font-size:20px; mobile-font-size:16px;}.slate-content{width:250px;,ax-width: min(100%,600px); text-align: center;font-weight: 300;}</style>
+<style>.me{display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; gap:20px;  width:100%;} .me-photo{align-self:auto; max-width:150px; max-heigh:150px;} .me-content {width:590px; max-width:100%;} kbd {background-color: #eee;border-radius: 3px;border: 1px solid #b4b4b4;box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;color: #333;display: inline-block;font-size: .85em;font-weight: 700;line-height: 1;padding: 2px 4px;white-space: nowrap;} .cv {background-color: #fe5186;border-radius: 7px;border: none;box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);transition: all 0.3s ease 0s;color: #fff;display: inline-block;letter-spacing: 1.5px;text-decoration: none;padding:0 7px; position: right;}.cv svg {width: 16px;height: 16px;}.cv:hover {background-color: #fe5186;box-shadow: 0px 15px 20px rgba(254, 81, 134, 0.4);color: #fff;transform: translateY(-7px);} .slate-column-container{display:flex; justify-content:center;} .slate-column{display: flex; flex-wrap:wrap;flex-direction: row; align-items: stretch; justify-content: center; position: relative; min-height:216px; }.slate-column-item{display: flex; flex-direction: column; justify-content:center; align-item: flex-start;width:259px; padding: 20px 15px;}.slate-header{width:250px; max-width: min(100%, 600px); text-align: center; font-size:20px; mobile-font-size:16px;}.slate-content{width:250px;,ax-width: min(100%,600px); text-align: center;font-weight: 300;}</style>
