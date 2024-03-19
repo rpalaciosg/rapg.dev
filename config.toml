@@ -102,7 +102,7 @@ enableEmoji     = true
 
     [[params.social]]
     name = "hashnode"
-    url  = "hhttps://blog.richardpalacios.dev/"
+    url  = "https://hashnode.com/@rpalaciosg"
 
 #  [[params.social]]
 #    name = "Hackerrank"
