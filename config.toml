@@ -7,7 +7,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "dracula"
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message 
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message 
 
 # googleAnalytics = ""
 disqusShortname = "rpalaciosg"
